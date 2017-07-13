@@ -1,5 +1,7 @@
 package com.kshrd.mvp.mvp;
 
+import com.kshrd.mvp.base.BaseMvpPresenter;
+import com.kshrd.mvp.base.BaseMvpView;
 import com.kshrd.mvp.listener.Callback;
 
 /**
@@ -8,14 +10,12 @@ import com.kshrd.mvp.listener.Callback;
 
 public interface LoginContract {
 
-    interface View {
-        void showLoading();
-        void hideLoading();
+    interface View extends BaseMvpView {
         void onLoginSuccess();
         void onLoginFailed();
     }
 
-    interface Presenter {
+    interface Presenter extends BaseMvpPresenter<LoginContract.View> {
         void login(String userName, String password);
     }
 
