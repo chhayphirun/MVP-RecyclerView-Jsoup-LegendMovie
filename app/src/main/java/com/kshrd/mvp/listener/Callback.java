@@ -5,8 +5,6 @@ package com.kshrd.mvp.listener;
  */
 
 public interface Callback {
-
     void onSuccess();
     void onFailed();
-
 }
