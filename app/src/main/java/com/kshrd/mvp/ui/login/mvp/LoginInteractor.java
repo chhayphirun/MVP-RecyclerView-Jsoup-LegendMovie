@@ -1,4 +1,4 @@
-package com.kshrd.mvp.mvp;
+package com.kshrd.mvp.ui.login.mvp;
 
 import com.kshrd.mvp.listener.Callback;
 

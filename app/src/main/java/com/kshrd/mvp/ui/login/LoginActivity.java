@@ -1,21 +1,18 @@
-package com.kshrd.mvp;
+package com.kshrd.mvp.ui.login;
 
 import android.app.ProgressDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.kshrd.mvp.R;
 import com.kshrd.mvp.base.BaseActivity;
-import com.kshrd.mvp.base.BasePresenter;
-import com.kshrd.mvp.mvp.LoginContract;
-import com.kshrd.mvp.mvp.LoginPresenter;
+import com.kshrd.mvp.ui.login.mvp.LoginContract;
+import com.kshrd.mvp.ui.login.mvp.LoginPresenter;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.Unbinder;
 
 public class LoginActivity extends BaseActivity implements LoginContract.View {
 

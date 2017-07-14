@@ -1,7 +1,5 @@
 package com.kshrd.mvp.base;
 
-import com.kshrd.mvp.mvp.LoginContract;
-
 import java.lang.ref.WeakReference;
 
 /**

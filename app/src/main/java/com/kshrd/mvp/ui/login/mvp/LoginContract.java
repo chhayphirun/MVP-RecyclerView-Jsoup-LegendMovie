@@ -1,4 +1,4 @@
-package com.kshrd.mvp.mvp;
+package com.kshrd.mvp.ui.login.mvp;
 
 import com.kshrd.mvp.base.BaseMvpPresenter;
 import com.kshrd.mvp.base.BaseMvpView;
